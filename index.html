@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeet Deepak Sarkar | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div id="preloader">
+        <div style="margin-bottom: 20px;" id="loader-text">System Initializing...</div>
+        <div class="loader-bar"><div class="loader-progress"></div></div>
+    </div>
+
+    <div class="background-grid"></div>
+
+    <nav>
+        <div class="logo"><span class="gradient-text">PO</span></div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#internship">YCSAS Journey</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <button id="theme-toggle" style="background:none; border:none; color:white; font-size:1.2rem; cursor:pointer;"><i class="fas fa-moon"></i></button>
+    </nav>
+
+    <section id="home">
+        <div class="hero-content hidden">
+            <h3>Hello, I am</h3>
+            <h1 class="gradient-text">Jeet Deepak Sarkar</h1>
+            <p>I am a <span class="typewriter" id="typewriter"></span></p>
+            <br><br>
+            <a href="#projects" class="btn">View My Security Tools</a>
+        </div>
+    </section>
+
+    <section id="about" style="padding: 80px 10%;">
+        <h2 class="hidden">About Me</h2>
+        <div class="hidden" style="text-align: center; max-width: 800px; margin: 0 auto;">
+            <p style="font-size: 1.1rem;">
+                My name is <strong>Jeet Deepak Sarkar</strong>. My ultimate goal is to become a <strong style="color:var(--accent-color)">Cybersecurity Expert</strong>. 
+                I have completed the full <strong>CS50</strong> course and have a diverse skillset ranging from low-level C programming to modern AI development.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" style="padding: 50px 5%;">
+        <h2 class="hidden">My Skills</h2>
+        <div class="skills-container hidden">
+            <div class="skill-tag"><i class="fab fa-cuttlefish"></i> C / C++</div>
+            <div class="skill-tag"><i class="fab fa-python"></i> Python</div>
+            <div class="skill-tag"><i class="fas fa-database"></i> SQL</div>
+            <div class="skill-tag"><i class="fab fa-html5"></i> HTML5</div>
+            <div class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</div>
+            <div class="skill-tag"><i class="fab fa-js"></i> JavaScript</div>
+            <div class="skill-tag"><i class="fab fa-react"></i> React</div>
+            <div class="skill-tag"><i class="fab fa-linux"></i> Linux</div>
+            <div class="skill-tag"><i class="fas fa-user-secret"></i> Ethical Hacking</div>
+        </div>
+    </section>
+
+    <section id="internship" style="padding: 80px 5%;">
+        <h2 class="hidden">YCSAS Internship Journey</h2>
+        <div class="timeline">
+            <div class="timeline-item hidden">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Week 1: Version Control</h3>
+                    <p>Mastered Git and GitHub. Learned repo management, commits, and collaboration workflows.</p>
+                </div>
+            </div>
+            <div class="timeline-item hidden">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Week 2: Web Structure</h3>
+                    <p>Deep dive into HTML & CSS. Built responsive layouts and learned design principles.</p>
+                </div>
+            </div>
+            <div class="timeline-item hidden">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Week 3: Logic Building</h3>
+                    <p>JavaScript fundamentals. DOM manipulation and creating interactive logic.</p>
+                </div>
+            </div>
+            <div class="timeline-item hidden">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Week 4: Modern UI</h3>
+                    <p>Introduction to React. Building dynamic components and managing state.</p>
+                </div>
+            </div>
+            <div class="timeline-item hidden">
+                <div class="timeline-dot" style="background:white;"></div>
+                <div class="timeline-content">
+                    <h3>Now: Final Project</h3>
+                    <p>Building this comprehensive Portfolio website to showcase both YCSAS and Personal works.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" style="padding: 80px 5%;">
+        <h2 class="hidden">YCSAS Projects</h2>
+        <div class="projects-grid hidden">
+            <div class="project-card"><div><h4>Basic Web Page</h4><p>Semantic layout structure.</p></div><a href="https://github.com/Jeet-c3/Fsociety.git" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="project-card"><div><h4>Cyber Awareness</h4><p>Phishing education site.</p></div><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="project-card"><div><h4>Interactive Form</h4><p>JS Validation.</p></div><a href="https://github.com/Jeet-c3/Form.git" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="project-card"><div><h4>To-Do List</h4><p>Task Manager CRUD.</p></div><a href="https://jeet-c3.github.io/TO-DO___LIST/" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="project-card"><div><h4>Shopping Place</h4><p>E-commerce UI.</p></div><a href="https://github.com/Jeet-c3/Nexora.git" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="project-card"><div><h4>Amazing Calculator</h4><p>Scientific JS Calc.</p></div><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="project-card"><div style="border-left: 2px solid var(--accent-color); padding-left:10px;"><h4>Final Portfolio</h4><p>This website.</p></div><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+        </div>
+
+        <br><hr style="border-color: rgba(255,255,255,0.1); margin: 60px 0;"><br>
+
+        <h2 class="hidden">My Personal Projects</h2>
+        
+        <div class="tabs hidden">
+            <button class="tab-btn active" onclick="filterProjects('c')">C / C++</button>
+            <button class="tab-btn" onclick="filterProjects('python')">Python & AI</button>
+            <button class="tab-btn" onclick="filterProjects('web')">Web Development</button>
+        </div>
+
+        <div id="c-list" class="personal-project-list active-list">
+            <div class="mini-card hidden"><h4>Tic-Tac-Toe</h4><p>Classic game logic in C.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card hidden"><h4>Scientific Calculator</h4><p>Complex math functions in CLI.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card hidden"><h4>Rock Paper Scissors</h4><p>Game vs Computer RNG.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card hidden"><h4>Friends Shooting Game</h4><p>Built using C++ logic.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card hidden"><h4>3 Viruses (Sim)</h4><p>Educational malware analysis.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+        </div>
+
+        <div id="python-list" class="personal-project-list">
+            <div class="mini-card"><h4>Ultron AI</h4><p>PC Controller, Game Player, Coder.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Password Cracker</h4><p>Brute-force simulation tool.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Keylogger</h4><p>Keystroke recording script.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>DDoS Attacker</h4><p>Network stress testing.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Auto WhatsApp Bot</h4><p>Automated messaging.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Face Recognition</h4><p>Biometric security.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Hand Gesture Mouse</h4><p>Control via webcam.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Eye Ball Tracker</h4><p>Control via eye movement.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Railway System</h4><p>Full reservation database.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>System Breaker</h4><p>Encryption logic study.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>AI Gen Tools</h4><p>Video/Image models.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Web Scraper</h4><p>Data extraction.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Chat Bot</h4><p>NLP conversation bot.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Cat Virus</h4><p>Desktop pet simulation.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>SMS Bomber</h4><p>API abuse test.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+        </div>
+
+        <div id="web-list" class="personal-project-list">
+            <div class="mini-card"><h4>Space Ticket Booking</h4><p>+ Movie watching.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Facebook Clone</h4><p>UI replication.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Browser Safety</h4><p>Security extension.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Ad Remover</h4><p>DOM manipulation.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Student Launcher</h4><p>Educational dash.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Shopping Site</h4><p>Full e-commerce.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Flappy Bird</h4><p>Canvas game.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Shooting Game</h4><p>JS Action.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Amazing Form</h4><p>Validation UI.</p><a href="commingsoon.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+        </div>
+    </section>
+
+    <section id="contact" style="padding: 50px 5%; margin-bottom: 50px;">
+        <h2 class="hidden">Get in Touch</h2>
+        <div class="contact-box hidden">
+            <p>Interested in my work?</p>
+            <form id="contactForm">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea rows="4" placeholder="Message"></textarea>
+                <button type="submit" class="btn" style="margin-top:10px; width:100%;">Send Message</button>
+            </form>
+            <div style="margin-top: 30px; font-size: 1.5rem;">
+                <a href="https://github.com/Jeet-c3/" style="color:#aaa; margin:0 10px;"><i class="fab fa-github"></i></a>
+                <a href="#" style="color:#aaa; margin:0 10px;"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer style="text-align:center; padding:20px; color:#555;"><p>&copy; 2026 Jeet Deepak Sarkar</p></footer>
+
+    <script>
+        window.onload = () => {
+            const msgs = ["System Initializing...", "Loading Modules...", "Access Granted."];
+            let i = 0;
+            const interval = setInterval(() => {
+                if(i < msgs.length) document.getElementById('loader-text').innerText = msgs[i++];
+                else clearInterval(interval);
+            }, 800);
+
+            setTimeout(() => {
+                const preloader = document.getElementById('preloader');
+                preloader.style.opacity = '0';
+                preloader.style.visibility = 'hidden';
+                type();
+            }, 3000);
+        }
+
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if(entry.isIntersecting) entry.target.classList.add('show');
+            });
+        });
+        document.querySelectorAll('.hidden').forEach(el => observer.observe(el));
+
+        const textElement = document.getElementById('typewriter');
+        const phrases = ["Cybersecurity Aspirant.", "Python Developer.", "Good Boy."];
+        let pIndex = 0, cIndex = 0, isDeleting = false;
+
+        function type() {
+            const current = phrases[pIndex];
+            if(isDeleting) textElement.textContent = current.substring(0, cIndex - 1), cIndex--;
+            else textElement.textContent = current.substring(0, cIndex + 1), cIndex++;
+
+            if(!isDeleting && cIndex === current.length) isDeleting = true, setTimeout(type, 2000);
+            else if(isDeleting && cIndex === 0) isDeleting = false, pIndex = (pIndex + 1) % phrases.length, setTimeout(type, 500);
+            else setTimeout(type, isDeleting ? 50 : 100);
+        }
+
+        function filterProjects(category) {
+            document.querySelectorAll('.personal-project-list').forEach(list => {
+                list.classList.remove('active-list');
+            });
+
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            const targetList = document.getElementById(category + '-list');
+            targetList.classList.add('active-list');
+
+            const items = targetList.querySelectorAll('.mini-card');
+            items.forEach((item, index) => {
+                item.classList.remove('hidden', 'show');
+                void item.offsetWidth; 
+                item.style.animation = `fadeInUp 0.5s ease forwards ${index * 0.05}s`; 
+            });
+        }
+
+        const toggleBtn = document.getElementById('theme-toggle');
+        toggleBtn.addEventListener('click', () => {
+            const body = document.body;
+            body.setAttribute('data-theme', body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+            toggleBtn.innerHTML = body.getAttribute('data-theme') === 'dark' ? '<i class="fas fa-moon"></i>' : '<i class="fas fa-sun" style="color:#000;"></i>';
+        });
+
+        document.getElementById('contactForm').addEventListener('submit', (e) => { e.preventDefault(); alert("Sent!"); });
+    </script>
+</body>
+</html>
