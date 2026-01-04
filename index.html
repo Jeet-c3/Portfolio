@@ -43,12 +43,13 @@
     <section id="about" style="padding: 80px 10%;">
         <h2 class="hidden">About Me</h2>
         <div class="hidden" style="text-align: center; max-width: 800px; margin: 0 auto;">
-            <p style="font-size: 1.1rem;">
-                My name is <strong>Jeet Deepak Sarkar</strong>. My ultimate goal is to become a <strong style="color:var(--accent-color)">Cybersecurity Expert</strong>. 
-                I have completed the full <strong>CS50</strong> course and have a diverse skillset ranging from low-level C programming to modern AI development.
+            <p style="font-size: 1.1rem; line-height: 1.6;">
+                My name is <strong>Jeet Deepak Sarkar</strong>. I am a passionate Computer Science student and a cybersecurity enthusiast. My ultimate goal is to become a <strong style="color:var(--accent-color)">Cybersecurity Expert</strong> and specialize in securing digital infrastructures.
+                <br><br>
+                I joined the <strong>YCSAS Internship</strong> to bridge the gap between theoretical knowledge and practical application. I wanted to master <strong>Full Stack Web Development</strong> (HTML, CSS, JS, React) because understanding how software is built is essential to understanding how to protect it.
             </p>
         </div>
-    </section>
+    </section>      
 
     <section id="skills" style="padding: 50px 5%;">
         <h2 class="hidden">My Skills</h2>
@@ -123,12 +124,24 @@
         <h2 class="hidden" id="mpp">My Personal Projects</h2>
         
         <div class="tabs hidden">
-            <button class="tab-btn active" onclick="filterProjects('c')">C / C++</button>
+            <button class="tab-btn active" onclick="filterProjects('web')">Web Development</button>
+            <button class="tab-btn" onclick="filterProjects('c')">C / C++</button>
             <button class="tab-btn" onclick="filterProjects('python')">Python & AI</button>
-            <button class="tab-btn" onclick="filterProjects('web')">Web Development</button>
         </div>
-
-        <div id="c-list" class="personal-project-list active-list">
+        
+        <div id="web-list" class="personal-project-list active-list">
+            <div class="mini-card"><h4>Space Ticket Booking</h4><p>+ Movie watching.</p><a href="indev.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Facebook Clone</h4><p>UI replication.</p><a href="indev.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Browser Safety</h4><p>Security extension.</p><a href="indev.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Ad Remover</h4><p>DOM manipulation.</p><a href="indev.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Study Launcher</h4><p>Educational dash.</p><a href="https://jeet-c3.github.io/Launcher/" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Shopping Site</h4><p>Full e-commerce.</p><a href="indev.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Flappy Bird</h4><p>Canvas game.</p><a href=" https://jeet-c3.github.io/Flappy-Bird/" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Shooting Game</h4><p>JS Action.</p><a href="https://jeet-c3.github.io/Shooting-Game/" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+            <div class="mini-card"><h4>Amazing Form</h4><p>Validation UI.</p><a href="indev.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
+        </div>
+        
+        <div id="c-list" class="personal-project-list">
             <div class="mini-card hidden"><h4>Tic-Tac-Toe</h4><p>Classic game logic in C.</p><a href="indev.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
             <div class="mini-card hidden"><h4>Scientific Calculator</h4><p>Complex math functions in CLI.</p><a href="indev.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
             <div class="mini-card hidden"><h4>Rock Paper Scissors</h4><p>Game vs Computer RNG.</p><a href="indev.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
@@ -154,17 +167,7 @@
             <div class="mini-card"><h4>SMS Bomber</h4><p>API abuse test.</p><a href="indev.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
         </div>
 
-        <div id="web-list" class="personal-project-list">
-            <div class="mini-card"><h4>Space Ticket Booking</h4><p>+ Movie watching.</p><a href="indev.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
-            <div class="mini-card"><h4>Facebook Clone</h4><p>UI replication.</p><a href="indev.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
-            <div class="mini-card"><h4>Browser Safety</h4><p>Security extension.</p><a href="indev.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
-            <div class="mini-card"><h4>Ad Remover</h4><p>DOM manipulation.</p><a href="indev.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
-            <div class="mini-card"><h4>Study Launcher</h4><p>Educational dash.</p><a href="https://jeet-c3.github.io/Launcher/" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
-            <div class="mini-card"><h4>Shopping Site</h4><p>Full e-commerce.</p><a href="indev.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
-            <div class="mini-card"><h4>Flappy Bird</h4><p>Canvas game.</p><a href=" https://jeet-c3.github.io/Flappy-Bird/" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
-            <div class="mini-card"><h4>Shooting Game</h4><p>JS Action.</p><a href="indev.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
-            <div class="mini-card"><h4>Amazing Form</h4><p>Validation UI.</p><a href="indev.html" class="explore-link">Explore <i class="fas fa-arrow-right"></i></a></div>
-        </div>
+        
     </section>
 
     <section id="contact" style="padding: 50px 5%; margin-bottom: 50px;">
